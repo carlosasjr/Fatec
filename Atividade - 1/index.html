@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+Com um(a) colega, crie um site de 2 páginas com as linguagens HTML5 e CSS 
+(que não são linguagens de programação). Cada página deverá contar a história de um(a) de vocês. 
+Inclua uma história engraçada da infância, seus hobbies, o que sonha na vida e o 
+que tem feito para alcançar esses sonhos. Para apresentar tudo isso em uma página Web, 
+use os elementos de título (h1, h2, h3, ...), parágrafo e listas (ul, ol, li) 
+Se quiser acrescentar algo, fique à vontade. As listas devem ter fonte Arial, 
+1em, cor cinza. Os parágrafos devem ter fonte Arial, 0.8em, cor preta, margem superior de 12pt. 
+Os títulos devem ser da cor que você mais gosta. Para entregar a atividade, criem um 
+repositório no GitHub ou Bitbucket e commitem o código-fonte do site.
+-->
+<html>
+    <head>
+        <title>Atividade 1 - Carlos e Matheus Muniz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="home">
+            <div class="container">
+                <div class="logo" >
+                    <img src="imagens/logofatec.png" border="0">
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#carlos">Carlos</a></li>
+                            <li><a href="#matheus">Matheus</a></li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>            
+        </header>
+
+        <!--COPIAR APARTIR DAQUI 
+        TODO:
+        
+        1 - CRIAR CSS PARA A CLASSE perfil_matheus
+        E PARA O ID matheus
+        
+        2 - VINCULAR FOTO PARA O BACKGROUND .perfil_matheus .foto_perfil
+        -->
+        <section id="banner" class="perfil_carlos"> 
+            <div class="perfil" id="carlos">
+                <div class="nome">
+                    Carlos Antônio dos Santos Júnior
+                </div>
+
+                <div class="menu_perfil">
+                    <ul>                            
+                        <li><a href="perfil-carlos.html#biografia">Biografia</a></li>
+                        <li><a href="perfil-carlos.html#fotos">Fotos</a></li>
+                    </ul>                        
+                </div>
+
+                <div class="apresentacao">
+                    Olá, Eu sou
+                </div>
+
+                <div class="nomegrande">
+                    <strong>Carlos<br>
+                        Júnior</strong>
+                </div>
+            </div>
+
+            <div class="hoverzoom">
+                <div class="foto_perfil">
+                    <img src="imagens/carlos.jpg" border="0" >
+                </div>
+                <div class="retina">
+                    <p>Cursando o 2º Semestre de G.T.I na FATEC de guaratinguetá, estou desenvolvendo
+                        as atividades proposta pelo professor Leandro Guarino sobre HTML e CSS...</p>
+                    <a href="perfil-carlos.html#biografia">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container_sobre">
+                <div class="sobre_mim">
+                    <strong>Sobre mim</strong>
+                </div>
+
+                <div class="sobre_resumo">
+                    Tenho 34 anos, sou casado a 11 anos e tenho 4 filhos. Samuel 9 anos, Gabriel 5 anos, Isabela 3 anos e Manuela 1 ano.
+                    Sou desenvolvedor Delphi com 10 anos de experiência. Cursando 2º ano de G.T.I na Fatec de Guaratinguetá. Atualmente, 
+                    buscando desenvolver habilidades no mundo web.                   
+                </div>
+            </div>            
+        </section>
+
+        <!--COPIAR ATÉ AQUI E COLOCAR A BAIXO COM O PERFIL DO MATHEUS -->
+
+
+
+        <section id="banner" class="perfil_matheus"> 
+            <div class="hoverzoom">
+                <div class="foto_perfil">
+                    <img src="imagens/matheus.jpg" border="0" >
+                </div>
+                <div class="retina">
+                    <p>Cursando o 2º Semestre de G.T.I na FATEC de guaratinguetá, estou desenvolvendo
+                        as atividades proposta pelo professor Leandro Guarino sobre HTML e CSS...</p>
+                    <a href="perfil-matheus.html#biografia">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="perfil" id="matheus">
+                <div class="nome">
+                    Matheus Muniz Barreto da Cunha
+                </div>
+
+                <div class="menu_perfil">
+                    <ul>                            
+                        <li><a href="perfil-matheus.html#biografia">Biografia</a></li>
+                        <li><a href="perfil-matheus.html#fotos">Fotos</a></li>
+                    </ul>                        
+                </div>
+
+                <div class="apresentacao">
+                    Olá, mundo! Eu sou...
+                </div>
+
+                <div class="nomegrande">
+                    <strong>Matheus<br>
+                        Muniz</strong>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="sobre">
+            <div class="container_sobre">
+                <div class="sobre_mim">
+                    <strong>Sobre mim</strong>
+                </div>
+
+                <div class="sobre_resumo">
+                    Olá, eu sou o Matheus Muniz, tenho 21 anos e atualmente estou cursando meu 2° semestre em Gestão de T.I. na Fatec Guaratinguetá.
+                    Encontrei minha paixão na programação e também em café.
+                    Curto muito passar meu tempo livre trabalhando em códigos e linguagens que ainda não conheci,
+                    e fora a programação curto bastante jogos, séries, livros e principalmente passar um tempo com minha família.
+                </div>
+            </div>            
+        </section>        
+
+        <footer>
+            <div class="footer_copy">
+                Fatec Guaratinguetá - Linguagem de programação - Layout criado por Carlos Antônio e Matheus Muniz para a atividade 1;
+            </div>            
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    font-family: Arial;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-ciano {
+    background: #015761;
+    color: #FFF;
+    box-shadow:0 5px 0 #014952;
+}
+
+.btn-ciano:hover {
+    background: #014952;
+    color: #FFF;
+    box-shadow:0 5px 0 #00343a;
+}
+
+.btn-ciano:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.voltartopobotao {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee;
+}
+
+.paragrafo {
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.fundo {
+    background-color: #e9ebee;
+}
+
+ul, li {
+    font-size: 1em;
+    color: #666666;
+}
+
+h1,h2,h3, h4{
+    color: black;
+}
+
+p {
+  margin-top: 12pt;
+  font-size:  0.8em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.alto {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+.voltartopo {
+            position: fixed;
+            bottom: 2em;
+            right: 1em;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+}
