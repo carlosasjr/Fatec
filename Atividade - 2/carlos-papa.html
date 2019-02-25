@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+Com um(a) colega, crie um site de 3 páginas com as linguagens HTML5 e CSS. A página principal 
+deve ter links para as outras 2 páginas. Cada uma delas deve falar sobre uma pessoa famosa que vocês admiram.
+Para apresentar tudo isso em uma página Web, use os elementos de título (h1, h2, h3, ...), 
+parágrafo e listas (ul, ol, li)
+Todas as páginas devem ter o mesmo layout. Crie um arquivo CSS externo.
+Formate os textos especificando o tipo, o tamanho e a cor da fonte.
+Para entregar a atividade, criem um repositório no GitHub ou Bitbucket e commitem o código-fonte do site.
+-->
+<html>
+    <head>
+        <title>Atividade 2 - Papa Francisco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <header id="home">
+            <div class="container">
+                <div class="logo" >
+                    <a href="index.html"><img src="imagens/logofatec.png" border="0"></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#papa">Papa Fracisco</a></li>
+                            <li><a href="#matheus">Matheus</a></li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>            
+        </header>
+
+
+        <section id="banners">
+            <!--  <button onclick="plusDivs(-1)" style="height: 40px">&#10094;</button>  -->
+            <div class="slideshow">                      
+
+                <div class="slideshowarea">
+
+                    <div class="slide">
+                        <div class="mySlides" >
+                            <div class="foto">
+                                <img  src="imagens/fotos-carlos/fotobannerPapa.jpg" border="0" >
+                            </div>
+                        </div> 
+
+                        <div class="mySlides">
+                            <div class="foto">
+                                <img src="imagens/fotos-carlos/fotobannerPapa2.jpg" border="0"  >                                
+                            </div>
+                        </div> 
+                    </div>                  
+                </div>
+            </div>
+            <!-- <button  onclick="plusDivs(+1)" style="height: 40px">&#10095;</button> -->           
+        </section>      
+
+
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"><h1>Cidade do Vaticano</h1></div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 MARÇO 2013</div>
+                                    </div>
+
+                                    <div class="news_thunbmail">
+                                        <img src="imagens/fotos-carlos/Papa-Francisco-linha-tempo.jpg" border="0">
+                                    </div>
+
+                                    <div class="news_title">
+                                        <h2>Linha do tempo</h2>
+                                    </div>
+
+                                    <div class="news_resume">
+                                        <ul>
+                                            <li>36 – Nasceu em Buenos Aires no dia 17 de dezembro o mais velho dos filhos de José Mario Francisco Bergoglio e Regina María Sivori.</li>
+
+                                            <li>1958 – Em março desse ano, ingressou na Companhia de Jesus, congregação fundada no século XVI e liderada por jesuítas.</li>
+
+                                            <li>1960 – Bergoglio mudou-se para o Chile para estudar literatura, latim, grego e ciências clássicas.</li>
+
+                                            <li>1964 – Deu aulas de literatura e psicologia no Colégio Imaculada Conceição de Santa Fé.</li>
+
+                                            <li>1967 – O atual papa começou seus estudos em Teologia no Colégio Máximo de San José, em São Miguel.</li>
+
+                                            <li>1969 – Em 13 de dezembro desse ano, Bergoglio foi ordenado sacerdote.</li>
+
+                                            <li>1970 – Foi estudar na Universidade de Alcalá de Henares, na Espanha. É a última etapa de sua formação intelectual para o sacerdócio.</li>
+
+                                            <li>1973 – Ficou à frente da congregação jesuíta local. Permaneceu como provincial na Argentinha até 1979.</li>
+
+                                            <li>1980 – Voltou para a Europa para estudar. Dessa vez, foi à Alemanha concluir seu doutorado em teologia.</li>
+
+                                            <li>1986 – Tornou-se reitor da Faculdade de Filosofia e Teologia de San José, em São Miguel, cargo em que permaneceu até 1985.</li>
+
+                                            <li>1988 – Foi enviado para Córboda, cidade argentina, pela Companhia de Jesus, como diretor espiritual.</li>
+
+                                            <li>1992 – Tornou-se arcebispo titular de Buenos Aires.</li>
+
+                                            <li>1998 – Foi nomeado por João Paulo II bispo titular de Auca e bispo-auxiliar da diocese de Buenos Aires.</li>
+
+                                            <li>2001 – Bergoglio foi nomeado cardeal por Papa João Paulo II. No mesmo ano, o então papa o nomeou primaz da Argentina.</li>
+
+                                            <li>2005 – Foi presidente da Conferência Episcopal da Argentina, posição em que ficou até 2011. No mesmo ano, foi o segundo mais votado no conclave que escolheu o alemão Joseph Ratzinger como novo papa.</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </article> 
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 MARÇO 2013</div>
+                                    </div>
+
+                                    <div class="news_thunbmail">
+                                        <img src="imagens/fotos-carlos/vatican_pope_fran-16.jpg" border="0">
+                                    </div>
+
+                                    <div class="news_title">
+                                        <h2>Eleição do Papa Francisco</h2>
+                                    </div>
+
+                                    <div class="news_resume">
+                                        <p> Em março de 2013, o argentino Jorge Mario Bergoglio foi escolhido 
+                                            pelos 115 cardeais que integravam o conclave para ocupar o trono de 
+                                            Pedro, vago desde a renúncia de Bento XVI no mês anterior. 
+                                            Religioso da ordem dos jesuítas, foi o primeiro latino-americano a se 
+                                            tornar papa. Numa referência a São Francisco de Assis, reconhecido pelo seu trabalho junto aos pobres, 
+                                            escolheu o nome Francisco. Bergoglio é considerado um homem sem luxos, de grande vocação para a evangelização.</p>
+
+                                        <h2>Primeiras Palavras</h2>
+                                        <p>
+                                            Antes de conceder a benção, novo Papa pede aos fiéis que rezem por ele.
+
+                                            “Irmãos e irmãs, boa noite.
+
+                                            Vocês sabem que o dever do Conclave é dar um bispo a Roma. Parece que meus irmãos cardeais foram buscá-lo no fim do mundo, mas estamos aqui. Agradeço a vocês pela acolhida na Comunidade Diocesana de Roma, como seu bispo. Obrigado. </p>
+
+                                        <p>
+                                            Em primeiro lugar, gostaria de fazer uma oração pelo nosso bispo emérito, Bento XVI. Rezemos todos juntos por ele para que o Senhor o abençoe e Nossa Senhora o guarde. (Recitou o Pai Nosso, Ave Maria e Glória)
+
+                                            E agora, comecamos este caminho, bispo e povo, esse caminho da Igreja de Roma, que é aquela que preside na caridade com todas as Igrejas. Um caminho de fraternidade, de amor e de confiança entre nós. Rezemos sempre por nós, uns pelos outros. Rezemos por todo o mundo, para que seja uma grande fraternidade. Vos desejo que este caminho de Igreja que hoje começamos – me ajudará o meu cardeal vigário aqui presente – seja frutuoso para a evangelização dessa sempre bela cidade. </p>
+
+                                        <p>    Agora eu gostaria de dar a benção, mas antes vos peço um favor. Antes que o bispo abençoe o povo, eu peço que vocês rezem ao Senhor para que me abençoe. A oração do povo pedindo a benção pelo seu bispo. Façamos em silêncio, esta oração de vocês sobre mim (o Papa inclinou-se para receber a oração). </p>
+
+                                        <p>
+                                            Agora vou abencoar vocês e todo o mundo, a todos os homens e mulheres de boa vontade (o Papa prosseguiu dando a benção em latim e a indulgência plenária).
+
+                                            Irmãos e irmãs, vos deixo, obrigado pela acolhida. Rezem para que logo nos vejamos. Amanhã quero ir rezar a Nossa Senhora, para que proteja toda a Roma. Boa noite e bom descanso”.                                            
+                                        </p>
+                                    </div>
+                                </a>
+                            </article>                            
+                        </div>
+                    </div>
+                </section>
+
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Fotos</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="depart_body">
+                                <div class="depart img1"></div>
+                                <div class="depart img2"></div>
+                                <div class="depart img3"></div>
+                                <div class="depart img4"></div>
+                                <div class="depart img5"></div>
+                                <div class="depart img6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+
+    </body>
+</html>
