@@ -76,28 +76,19 @@ nav a:hover {
     margin-top: 120px; 
 }
 
-.seta {
-    cursor: pointer;
-}
-
 
 .slideshow {
     display: flex;
     justify-content: center;
     width: 1000px;
-    overflow: hidden;
 }
 
 .slideshowarea {
-    display: flex;   
-    height: 403px;
-    width: 10000px;    
+    display: flex;        
 }
 
 .slide img {
     height: 403px;
-    width: 1000px;
-
 }
 
 
@@ -212,6 +203,11 @@ nav a:hover {
     flex-wrap: wrap;    
 }
 
+.center {
+      justify-content: center;
+}
+
+
 article {
     flex: 1;
     flex-wrap: wrap;
@@ -259,6 +255,10 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
+ article .news_resume h2 {
+    color: #000000;
+}
+    
 article .news_resume li {
  padding: 5px;   
 }    
@@ -311,4 +311,13 @@ article .news_resume li {
     background-image: url('../imagens/fotos-carlos/asideFoto6.jpg');
     background-position: center;
     background-size: cover;        
+}
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
 }
