@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+Com um(a) colega, crie um site de 3 páginas com as linguagens HTML5 e CSS. A página principal 
+deve ter links para as outras 2 páginas. Cada uma delas deve falar sobre uma pessoa famosa que vocês admiram.
+Para apresentar tudo isso em uma página Web, use os elementos de título (h1, h2, h3, ...), 
+parágrafo e listas (ul, ol, li)
+Todas as páginas devem ter o mesmo layout. Crie um arquivo CSS externo.
+Formate os textos especificando o tipo, o tamanho e a cor da fonte.
+Para entregar a atividade, criem um repositório no GitHub ou Bitbucket e commitem o código-fonte do site.
+-->
+<html>
+    <head>
+        <title>Atividade 2 - Eric Barone</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <header id="home">
+            <div class="container">
+                <div class="logo" >
+                    <a href="index.html"><img src="imagens/logofatec.png" border="0"></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#papa">Papa Fracisco</a></li>
+                            <li><a href="#eric">Eric Barone</a></li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>            
+        </header>
+
+
+        <section id="banners">
+            <!--  <button onclick="plusDivs(-1)" style="height: 40px">&#10094;</button>  -->
+            <div class="slideshow">                      
+
+                <div class="slideshowarea">
+
+                    <div class="slide">
+                        <div class="mySlides" >
+                            <div class="foto">
+                                <img  src="imagens/fotos-carlos/fotobannerPapa.jpg" border="0" >
+                            </div>
+                        </div> 
+
+                        <div class="mySlides">
+                            <div class="foto">
+                                <img src="imagens/fotos-carlos/fotobannerPapa2.jpg" border="0"  >                                
+                            </div>
+                        </div> 
+
+                        <div class="slide">
+                        <div class="mySlides" >
+                            <div class="foto">
+                                <img  src="imagens/fotos-matheus/ericpresent.jpg" border="0" >
+                            </div>
+                        </div> 
+
+                        <div class="mySlides">
+                            <div class="foto">
+                                <img src="imagens/fotos-matheus/ericpresent2.jpg" border="0"  >                            
+                            </div>
+                        </div> 
+                    </div>                  
+                </div>
+            </div>
+            <!-- <button  onclick="plusDivs(+1)" style="height: 40px">&#10095;</button> -->           
+        </section>      
+
+
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"><h1>ConcernedApe</h1></div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">STARDEW VALLEY</div>
+                                    </div>
+
+                                    <div class="news_thunbmail2"> <br>
+                                        <img src="imagens/fotos-matheus/eric1.jpg" border="0">
+                                    </div>
+
+                                    <div class="news_title">
+                                        <h2>Linha do tempo</h2>
+                                    </div>
+
+                                    <div class="news_resume">
+                                        <ul>
+                                            <li>26/02/2016 - Data de lançamento do seu primeiro jogo, Stardew Valley. Lançado para computador e vendido na plataforma Steam, ainda somente para sistema operacional Windows.</li>
+
+                                            <li>26/04/2016 - O jogo já havia vendido seu primeiro milhão de cópias e foi indicado para "Melhor jogo independente" no The Game Awards 2016.</li>
+
+                                            <li>29/07/2016 - Game ganha compatibilidade também com os sistemas operacionais Mac OS X e Linux.</li>
+
+                                            <li>13/12/2016 - Game é lançado para Playstation 4, inclusive com edição especial que seria distribuida também para todas as outras plataformas.</li>
+
+                                            <li>14/12/2016 - Game é lançado para Xbox One.
+                                          	</li>
+
+                                          	<li>2017 - Eric Barone foi colocado na lista da Forbes "30 under 30 - Games 2017".</li>
+
+                                          	<li>2017 - Stardew Valley é indicado para a "The Steam Games Awards 2017" e conquista o prêmio.</li>
+
+                                          	<li>05/10/2017 - Game é lançado para Nintento Switch.</li>
+
+                                          	<li>Final de 2017 - ConcernedApe anuncia que Stardew Valley ganharia um modo multiplayer.</li>
+
+                                          	<li>1/08/2018 - Stardew Valley ganha seu modo multiplayer, inicialmente para PC, mas que depois da fase beta começaria a ser entregue também para as demais plataformas.</li>
+
+                                          	<li>3/12/2018 - Eric Barone encerra sua parceria com a Chucklefish, que era até então era a distribuidora oficial do game, para criar sua própria equipe de desenvolvimento e distribuição de Stardew Valley e de seus futuros games.</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </article> 
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">BIOGRAFIA</div>
+                                    </div>
+
+                                    <div class="news_thunbmail2"> <br>
+                                        <img src="imagens/fotos-matheus/eric3.jpg" border="0">
+                                    </div>
+
+                                    <div class="news_title">
+                                        <h2>Quem é Eric Barone?</h2>
+                                    </div>
+
+                                    <div class="news_resume">
+                                        <p> Eric Barone, de 31 anos, residente em Seattle, Washington, formado pela University of Washington Tacoma em Ciência da Computação, iniciou seu projeto como desenvolvedor solo do game Stardew Valley. Eric, além de desenvolvedor, é também compositor, designer e artista, criando seu primeiro game com o desenvolvimento de todas essas habilidades. Claro que o game não ficou pronto em pouco tempo, Eric demorou 4 anos para conseguir desenvolver completamente o jogo, tendo um feedback de alguns jogadores seletos que já tinham interesse no título, até que Barone recebeu uma oferta da Chucklefish Games de publicar seu jogo, deixando ele livre para focar somente no desenvolvimento. Barone criou desde a arte do jogo, o design, suas mecânicas até a trilha sonora do game.</p>
+
+                                        <h2>Barone antes e depois de Stardew Valley</h2>
+                                        <p>
+                                            Após              
+                                        </p>
+                                    </div>
+                                </a>
+                            </article>                            
+                        </div>
+                    </div>
+                </section>
+
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Fotos</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="depart_body">
+                                <div class="depart img7"></div>
+                                <div class="depart img8"></div>
+                                <div class="depart img9"></div>
+                                <div class="depart img10"></div>
+                                <div class="depart img11"></div>
+                                <div class="depart img12"></div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+
+    </body>
+</html>
